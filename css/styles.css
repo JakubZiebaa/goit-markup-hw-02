@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+  --main-font-family: "Roboto", sans-serif;
+  --primary-color: #212121;
+  --secondary-color: #757575;
+  --dark-background-color: #2f303a;
+  --grey-backgroud-color: #f5f4fa;
+}
+
+body {
+  color: var(--primary-color);
+  font-family: var(--main-font-family);
+}
+
+  
+.logo-first {
+  color: #2196f3;
+
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+  
+}
+.header-logo {
+    color: #000000;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19; 
+    letter-spacing: 0.03em;
+  }
+ .navi {
+  list-style: none;
+ } 
+.navi-part {
+ list-style: none;
+ font-size: 14px;
+  font-weight: 500;
+}
+ .navi-part:hover,
+ .navi-part:focus,
+ .navi-part:active. 
+ {
+ color: #2196f3
+}
+
+.navi-contact {
+  color: var(--secondary-color);
+}
+.navi-contact-part {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+.navi-contact-part:focus,
+.navi-contact-part:hover,
+.navi-contact-part:active {
+  color: #2196f3;
+}
+.section-main {
+  background-color: #000000;
+
+}
+.section-main-text{
+  font-size: 44px;
+  line-height: 1.36; 
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-weight: 900;
+  color: #ffffff;
+}
+.section-main-button {
+  background: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875; 
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.topic{
+  list-style: none;}
+
+.topic-name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.topic-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
